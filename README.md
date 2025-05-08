@@ -1,5 +1,6 @@
 <div align="center">
-  <img height="130" src="https://i.postimg.cc/Nf651bzY/cinesearch.png" alt="CineSearch Logo" />
+  <img src="https://i.postimg.cc/Nf651bzY/cinesearch.png" alt="CineSearch Logo"
+       style="max-width: 100%; height: auto; max-height: 130px;" />
 </div>
 
 <h1 align="center">🎬 CineSearch</h1>
