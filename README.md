@@ -14,7 +14,7 @@
 
 ## 🔍 Overview
 
-CineSearch delivers an enterprise-grade search solution for movies and TV series. Leveraging a proprietary trending-score algorithm, responsive interfaces, and modular architecture, it empowers users to discover content by title, rating, language, release year, and country with sub-second latency.
+CineSearch delivers an search solution for movies and TV series. Leveraging a proprietary trending-score algorithm, responsive interfaces, and modular architecture, it empowers users to discover content by title, rating, language, release year, and country with sub-second latency.
 
 ---
 
