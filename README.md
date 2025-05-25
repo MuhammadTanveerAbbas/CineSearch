@@ -1,123 +1,98 @@
 <div align="center">
-  <img src="https://i.postimg.cc/Nf651bzY/cinesearch.png" alt="CineSearch Logo"
-       style="max-width: 100%; height: auto; max-height: 130px;" />
+  <img src="https://i.postimg.cc/nrhG0xY3/Cine-Search.png" alt="CineSearch Movie and TV App Logo" />
 </div>
 
-<h1 align="center">🎬 CineSearch</h1>
-<p align="center"><em>A scalable, responsive movie & TV discovery platform with rich metadata and a sleek UI/UX.</em></p>
+<h1 align="center">🎬 CineSearch — Movie & TV Discovery Platform</h1>
+<p align="center"><em>Discover movies, shows, and streaming content with blazing-fast search and rich metadata. Built with React, Tailwind CSS, Appwrite, and TMDB API.</em></p>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" alt="React" height="32" />
-  <img src="https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white&style=for-the-badge" alt="Appwrite" height="32" style="margin:0 8px;" />
-  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" alt="Tailwind CSS" height="32" />
+  <a href="https://cinesearch-movies.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge" alt="Live Demo Badge" />
+  </a>
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" alt="React Badge" />
+  <img src="https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white&style=for-the-badge" alt="Appwrite Badge" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" alt="Tailwind CSS Badge" />
 </div>
 
-## 🔍 Overview
+---
 
-CineSearch delivers an search solution for movies and TV series. Leveraging a proprietary trending-score algorithm, responsive interfaces, and modular architecture, it empowers users to discover content by title, rating, language, release year, and country with sub-second latency.
+## 📌 What is CineSearch?
+
+**CineSearch** is a modern, fully responsive **movie and TV show discovery web application** that enables users to:
+
+- Browse trending films and series in real time.
+- Filter by genre, rating, release year, language, and region.
+- Access detailed metadata for every title using **The Movie Database (TMDB)** API.
+
+Built using **React**, **Tailwind CSS**, and **Appwrite**, CineSearch offers a fast, intuitive user experience across devices.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Live Demo
 
-- **Comprehensive Browsing** 🔄  
-  Scroll through an extensive, paginated catalog of films and series.  
-- **Instant Search** ⚡  
-  Real-time predictive suggestions for rapid title lookup.  
-- **Trending Insights** 📈  
-  Algorithmic ranking surfaces the most popular content dynamically.  
-- **Responsive UI/UX** 📱💻  
-  Fluid design optimized for desktop, tablet, and mobile viewports.  
-- **Scalable Architecture** 🧱  
-  Component-driven codebase ensures maintainability and high reusability.  
-- **Rich Metadata** 🏷️  
-  Display ratings, original language, release year, and country of origin.  
+🔗 [Try the live app](https://cinesearch-movies.vercel.app/)  
+💻 Best viewed on Chrome, Firefox, Safari, or Edge.
 
 ---
 
-## 🛠 Tech Stack
+## 🔍 SEO-Friendly Features
 
-| Layer             | Technology               |
-|-------------------|--------------------------|
-| Frontend          | React, Tailwind CSS      |
-| Backend (BaaS)    | Appwrite                 |
-| Data Source       | The Movie Database (TMDB)|
-| Version Control   | Git & GitHub             |
+- **Semantic HTML5 structure**
+- **Keyword-rich meta tags** (for deployment)
+- **Accessible image alt attributes**
+- **Mobile-first responsive design**
+- **Open Graph & social preview ready**
 
----
-
-## 📋 Prerequisites
-
-- **Node.js** ≥ 14.x  
-- **npm** (bundled with Node.js)  
-- **Git** for version control  
-- **TMDB API Key** 🔑 (register at [themoviedb.org](https://www.themoviedb.org/documentation/api))  
-- **Appwrite Project** ☁️ (create at [appwrite.io](https://appwrite.io/))  
+For deployment, ensure your hosting platform supports:
+- `robots.txt`
+- Meta tags via `<Helmet>` or server-rendered `<head>`
+- Sitemap.xml
 
 ---
 
-## ⚙️ Installation & Setup
+## 🛠️ Built With
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/MuhammadTanveerAbbas/cinesearch.git
-   cd cinesearch
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Configure environment**
-   Copy the sample environment file and populate your credentials:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   Then open `.env` and set:
-
-   ```bash
-   VITE_APP_API_KEY=<Your_TMDB_API_Key>
-   VITE_APPWRITE_PROJECT_ID=<Your_Appwrite_Project_ID>
-   VITE_APPWRITE_DATABASE_ID=<Your_Appwrite_Database_ID>
-   VITE_APPWRITE_COLLECTION_ID=<Your_Appwrite_Collection_ID>
-   ```
-
-4. **Start development server**
-
-   ```bash
-   npm start
-   ```
-
-   🎉 Access the app at `http://localhost:3000`
+| Layer           | Tech Stack                           |
+| --------------- | ------------------------------------- |
+| Frontend        | React, Tailwind CSS                  |
+| Backend         | Appwrite (BaaS), RESTful Integration |
+| Data Source     | TMDB API                             |
+| Deployment      | Vercel / Netlify / GitHub Pages      |
+| Version Control | Git, GitHub                          |
 
 ---
 
-## 🔧 Configuration
+## 📦 Features
 
-* **TMDB Integration**
-
-  1. Obtain API key from [TMDB](https://www.themoviedb.org/documentation/api).
-  2. Assign to `VITE_APP_API_KEY` in `.env`.
-
-* **Appwrite Backend**
-
-  1. In your Appwrite console, create a project, database, and collection.
-  2. Copy `Project ID`, `Database ID`, and `Collection ID` into `.env`.
+- 🎞️ **Discover Popular Movies & Series** — Updated dynamically.
+- 🔍 **Smart Search & Filter** — Search by title, rating, year, language, and more.
+- 📊 **Trending Algorithm** — Ranks top content using popularity heuristics.
+- 📱 **Responsive Design** — Optimized for all device sizes.
+- 🔄 **Infinite Scrolling** — Seamless UX with server-side pagination.
+- 🧩 **Component-Driven Architecture** — Easily extensible and maintainable.
 
 ---
 
-## ✨ Usage
+## ✅ Requirements
 
-* **🔎 Search:** Type movie or series titles; instantaneous results appear.
-* **🏆 Trending:** Visit the homepage to view algorithm-ranked popular content.
-* **ℹ️ Details:** Click any poster to see full metadata—rating, language, release year, and country.
+- Node.js ≥ 14.x
+- npm (Node Package Manager)
+- Git CLI
+- TMDB API Key — [Get it here](https://www.themoviedb.org/documentation/api)
+- Appwrite Account — [Create free](https://appwrite.io/)
 
 ---
 
+## ⚙️ Quick Setup Guide
 
-## 📄 License
+```bash
+# Clone the repo
+git clone https://github.com/MuhammadTanveerAbbas/cinesearch.git
+cd cinesearch
 
-© 2025 Muhammad Tanveer Abbas. Licensed under the MIT License.
+# Install dependencies
+npm install
+
+# Create and configure environment variables
+cp .env.example .env
+# Then edit .env with your credentials
