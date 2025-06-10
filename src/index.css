@@ -19,6 +19,7 @@ body {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none;
@@ -57,7 +58,7 @@ body::-webkit-scrollbar {
 @layer components {
   .pattern {
     @apply w-full min-h-screen fixed inset-0 z-0;
-    background-image: url('/hero-bg.png'), linear-gradient(135deg, #1D1553 0%, #0b0d16 100%);
+    background-image: url('/hero-bg.webp'), linear-gradient(135deg, #1D1553 0%, #0b0d16 100%);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,8 +71,8 @@ body::-webkit-scrollbar {
 
   .search {
     @apply w-full bg-light-100/20 backdrop-blur-sm border border-light-200/50 px-3 py-1.5 rounded-full mt-4 sm:mt-6 max-w-xl mx-auto shadow-md transition-shadow duration-200;
-    
-    &:focus-within { 
+
+    &:focus-within {
       @apply shadow-lg;
     }
 
@@ -91,7 +92,7 @@ body::-webkit-scrollbar {
   .trending {
     @apply mt-4 sm:mt-6;
 
-    & > h2 {
+    &>h2 {
       @apply mb-3 sm:mb-4 text-[var(--color-text-secondary)];
     }
 
@@ -125,7 +126,7 @@ body::-webkit-scrollbar {
   .all-movies {
     @apply mt-6 sm:mt-8;
 
-    & > h2 {
+    &>h2 {
       @apply mb-3 sm:mb-4 text-[var(--color-text-secondary)];
     }
 
@@ -180,7 +181,7 @@ body::-webkit-scrollbar {
 @utility hide-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
-  
+
   &::-webkit-scrollbar {
     display: none;
   }

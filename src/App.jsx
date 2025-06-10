@@ -89,7 +89,7 @@ const App = () => {
 
       <div className="wrapper">
         <header>
-          <img src="./hero.png" alt="Hero Banner" />
+          <img src="./hero.webp" alt="Hero Banner" />
           <h1>Find Movies You'll Love</h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
