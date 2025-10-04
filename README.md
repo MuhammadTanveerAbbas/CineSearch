@@ -78,6 +78,6 @@ React • Tailwind CSS • Appwrite • TMDB API • Vercel
 
 <div align="center">
 
-Designed and Developed with 🎬 by **Muhammad Tanveer Abbas** 🌟
+Designed and Developed with 🧠 by **Muhammad Tanveer Abbas** 🌟
 
 </div>
