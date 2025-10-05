@@ -4,7 +4,7 @@
 </div>
 
 <div align="center">
-  <h1>CineSearch 🎬 Movie Discovery Tool 🛠</h1>
+  <h1>CineSearch 🎭 Movie Discovery Tool 🛠</h1>
   <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" height="40" alt="React" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" height="40" alt="Tailwind CSS" />
   <img src="https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white&style=for-the-badge" height="40" alt="Appwrite" />
