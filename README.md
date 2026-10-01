@@ -72,7 +72,7 @@ A **fast and elegant** movie search platform that:
 
 ### 🛠️ Technology Used
 
-React • Tailwind CSS • Appwrite • TMDB API • Vercel
+React Js • Tailwind CSS • Appwrite • TMDB API • Vercel
 
 ---
 
